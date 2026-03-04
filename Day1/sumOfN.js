@@ -1,15 +1,6 @@
-// Write a program that counts how many even and odd numbers exist from 1 to 100.
-
-
-let countEven = 0, countOdd = 0;
-for (let i = 1; i <= 100; i++) {
-    if (i % 2 == 0) {
-        countEven++;
-    }
-    else {
-        countOdd++;
-    }
+//Write a function that calculates the sum of numbers from 1 to n.
+const sum=(n)=>{
+ return n*(n+1)/2;
 }
 
-console.log("Even numbers:", countEven);
-console.log("Odd numbers:", countOdd);
+console.log(sum(10));
